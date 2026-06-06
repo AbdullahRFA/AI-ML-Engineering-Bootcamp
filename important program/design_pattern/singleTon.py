@@ -1,3 +1,13 @@
+'''
+Singleton Design Pattern is a software design pattern that restricts the instantiation of a class to a single instance and provides a global point of access to that instance. This is useful when exactly one object is needed to coordinate actions across the system. The singleton pattern ensures that a class has only one instance and provides a global point of access to it.
+
+In Python, you can implement the singleton pattern using various methods, such as using a class variable to store the instance, using a decorator, or using a metaclass. The example below demonstrates a simple implementation of the singleton pattern using a class variable to store the instance.
+
+
+'''
+
+
+
 # class Singleton:
 #     _instance = None
     
